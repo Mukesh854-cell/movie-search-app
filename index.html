@@ -9,17 +9,20 @@
 <body>
     <header class="header">
 
-        <img src="logo.png" alt="MovieFinder Logo">
-        <div class="title">MovieFinder</div>
+        <div class="logo-title">
+            <img src="logo.png" alt="MovieFinder Logo">
+            <div class="title">MovieFinder</div>
+        </div>
 
         <main class="search-box">
-            <input type="text" placeholder="Search movies...">
-            <button class="search-btn">Search</button>
+            <input id="search" type="text" placeholder="Search movies...">
+            <button class="search-btn" id="search-btn">Search</button>
         </main>
         
+        <div></div>
     </header>
 
-    <main class="result"></main>
+    <main class="result" id="movieResult"></main>
     <footer class="footer"></footer>
 
     <script src="script.js"></script>
